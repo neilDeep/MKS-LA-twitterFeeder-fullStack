@@ -26,16 +26,8 @@ var app = {
   displayTweets: function(data){
 
    for(var i =0; i<25; i++) {
-        $('#tweets').append(data.statuses[i].text);
+        $('#tweets').append('<p>',data.statuses[i].text,'<p>'+'</br>');
        }
   },
-  // Wasn't working with the handleSubmit reference...
-  // So I brought the code ^ to app.init.
-  // handleSubmit: function(e){
-  //  e.preventDefault();
-  //  var username = $('#username').val();
-  //  console.log("Within displayMessages, data: ",username);
-  //  app.send(username);
-  // }
 
 };

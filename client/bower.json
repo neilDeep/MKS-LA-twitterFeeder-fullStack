@@ -1,0 +1,20 @@
+{
+  "name": "twitterFeeder Bower",
+  "version": "0.0.0",
+  "authors": [
+    "(GitHub: @neilDeep)"
+  ],
+  "description": "Displays Last 25 Tweets of Desired Twitter User",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.2",
+    "underscore": "~1.8.3"
+  }
+}

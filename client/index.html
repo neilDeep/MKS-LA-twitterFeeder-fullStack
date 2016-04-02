@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>twitterFeeder</title>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+<script src="./app.js"></script>
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+</head>
+<script>
+  $(function(){
+    app.init();
+  });
+</script>
+
+<body>
+  <h1>twitterFeeder</h1>
+
+  <h3>Enter Your Desired Twitter User</h3>
+
+  <form action='#' id='send' method='POST'>
+    <input type='text' value='deeplygold' id='username' placeholder="Twitter Handle">
+    <input type='submit' id='submitButton' value='Get Their Latest Tweets!'>
+  </form>
+
+  </br>
+
+  <h3>Tweets:</h3>
+  <div id="tweets">
+    <!--Tweets Appear Here-->
+  </div>
+
+
+</body>
+</html>

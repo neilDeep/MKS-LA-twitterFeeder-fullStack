@@ -37,7 +37,7 @@ function handleRequest (request, response){
          if(error) {console.log(error);}
          response.end(JSON.stringify(tweets)); // -> app.js send
         });
-        console.log("Data Recieved: ",JSON.parse(data));
+        console.log("Data Received: ",JSON.parse(data));
       });
     }
   }

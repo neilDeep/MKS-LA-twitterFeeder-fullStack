@@ -16,7 +16,7 @@ var app = {
      data: JSON.stringify(data),
      success: function(data){ // from server.js 35
        app.displayTweets(JSON.parse(data));
-       console.log("Recieved ",JSON.parse(data)," from Server");
+       console.log("Received ",JSON.parse(data)," from Server");
      },
      error: function(data){
        console.log("Error in Sending "+ data);
